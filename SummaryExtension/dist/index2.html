@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Insert Text</title>
+</head>
+
+<body>
+    <div id="heading">
+        <h2>Rapid Summary</h2>
+        <button id="xButton">X</button>
+    </div>
+    <div class="pageBody">
+        <center>
+            <button id="toggle-button" class="switch" onclick="toggleSwitch()" value="text"></button>
+
+            <textarea class="insertText" id="insertText" placeholder="Enter article"></textarea>
+
+            <div class="container" id="summaryText"></div>
+
+            <div id="loading-container" class="loading-container" hidden>
+                <i class="fa-li fa fa-spinner fa-spin"></i>
+            </div>
+
+            <button id="summaryButton2">Get Summary</button>
+            <button id="insertAgainButton">Insert Again</button>
+
+            <p><a href="index.html" class="nextPageLink">Back</a></p>
+        </center>
+
+    </div>
+</body>
+<footer><center>*Uses Language Models Provided By OpenAI</center></footer>
+<script src="main.js"></script>
+</html>

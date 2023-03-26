@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Rapid Summary",
+    "version": "0.0.0.1",
+    "description": "With our extension, you'll never have to wade through pages of dense text again. Our innovative technology uses ChatGPT to quickly analyze any website you're viewing and provide you with a concise summary of its key points. Whether you're researching a new topic, catching up on news, or just browsing the web, our extension will help you save time and get the information you need more efficiently.",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "permissions": [
+        "<all_urls>",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_popup": "index.html"
+    }
+}
