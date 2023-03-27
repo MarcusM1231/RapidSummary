@@ -1,2 +1,2 @@
 # RapidSummary
-Chrome extension that gives the current summary of the website you visiting 
+Chrome extension that gives the summary of the website you visiting 
